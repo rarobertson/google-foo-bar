@@ -11,7 +11,7 @@
                     answerStrBuilder.append("100000");
                     break;
 				}
-                case 'b':
+                case 'b':{
                     answerStrBuilder.append("110000");
                     break;
 				}
@@ -119,4 +119,5 @@
         };
         
         return answerStrBuilder.toString();
+		
 } 
